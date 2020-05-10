@@ -1,4 +1,4 @@
-package SourceCode.dbms;
+package SourceCode.sql;
 
 import SourceCode.config.mysql;
 import java.sql.*;
