@@ -1,5 +1,6 @@
 package SourceCode;
 
+import SourceCode.feature.getData;
 import SourceCode.feature.insert;
 import SourceCode.ui.menu;
 import SourceCode.ui.reader;
@@ -19,8 +20,7 @@ public class payRoll {
                     insert.insertEmployee();
                     break;
                 case "2":
-                    System.out.println("Show Employee");
-                    //Show Employee Method;
+                    getData.showAllEmployees();
                     break;
                 case "3":
                     System.out.println("Exiting....... Bye! ");
