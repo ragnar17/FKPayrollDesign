@@ -7,16 +7,16 @@ public class Employee{
     private String mobileNo;
     private String email;
     private String address;
-    private int salaryType;
+    private int type;
 
-    public Employee(int id,String firstName, String lastName,String address ,String mobileNo,String email,int salaryType){
+    public Employee(int id,String firstName, String lastName,String address ,String mobileNo,String email,int type){
         this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;
         this.mobileNo = mobileNo;
         this.email = email;
         this.address = address;
-        this.salaryType = salaryType;
+        this.type = type;
     }
     public int getId(){
         return this.id;
@@ -57,11 +57,11 @@ public class Employee{
         this.address=address;
     }
 
-    public int getSalaryType(){
-        return this.salaryType;
+    public int getType(){
+        return this.type;
     }
 
-    public void setSalaryType(int salaryType){
-        this.salaryType=salaryType;
+    public void setType(int type){
+        this.type=type;
     }
 }
