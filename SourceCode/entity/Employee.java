@@ -9,7 +9,6 @@ public class Employee{
     private String address;
     private int salaryType;
 
-
     public Employee(int id,String firstName, String lastName,String address ,String mobileNo,String email,int salaryType){
         this.id = id;
         this.firstName = firstName;
