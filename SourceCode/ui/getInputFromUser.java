@@ -4,7 +4,7 @@ import java.util.*;
 
 public class getInputFromUser {
 
-    public static Map< String,String> getValues(Map< String,String> fieldValue)
+    public static HashMap< String,String> getValues(HashMap< String,String> fieldValue)
     {
         for(Map.Entry mapElement : fieldValue.entrySet())
         {

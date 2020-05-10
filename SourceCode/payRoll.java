@@ -23,11 +23,14 @@ public class payRoll {
                     getData.showAllEmployees();
                     break;
                 case "3":
+                    insert.insertTimeCard();
+                    break;
+                case "E":
                     System.out.println("Exiting....... Bye! ");
                     check = false;
                     break;
                 default:
-                    System.out.println("We are in the process ,don't be over smart give a valid Input.");
+                    System.out.println("We are in the process ,don't be over smart. Please give a valid Input.");
                     break;
             }
         }
