@@ -18,6 +18,10 @@ public class Employee{
         this.address = address;
         this.type = type;
     }
+
+    public Employee() {
+    }
+
     public int getId(){
         return this.id;
     }
